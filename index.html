@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+<link href="css/style.css" rel="stylesheet">
+
+  <title>Discover Greece</title>
+</head>
+<body>
+ <header class="header">
+   <div class="header__inner">
+<!--Logo-->     
+     <a href="#">
+       <div class="header__logo">
+          <div class="logo__text">Discover</div>
+          <img class="logo__img" src="icons/sparta_icon.png" alt="Discover Greece logo">
+          <div class="logo__text">Greece</div>
+      </div>
+     </a>
+<!--Navigation-->  
+     <div class=" nav__link nav--burger"><i class="fas fa-chevron-circle-down"></i></div>
+     <nav class="nav">
+       <a href="#" class="nav__link">Home</a>
+       <a href="#destinations" class="nav__link">Destinations</a>
+       <a href="#" class="nav__link">Blog</a>
+       <a href="#" class="nav__link">Contact</a>
+       
+     </nav>
+     <a href="#" class="nav__link--booking">Book now</a>
+   </div>
+ </header>
+
+ <section class="section">
+   <div class="container">
+<!--Main Title-->     
+     <div class="section__inner">
+       <div class="section__offer">Best offer</div>
+       <div class="section__discount">25% off</div>
+       <h1 class="section__tour">SANTORINI City Tour</h1>
+       <div class="section__subhead">Sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate mauris. Morbi accumsan ipsum velit.</div>
+       <button class="section__btn--more">See more</button>
+     </div> 
+     <button class="section__scroll">Scroll down</button>
+   </div>
+ </section>
+
+ <!--Reservasion-->
+ <section class="reservation">
+   <div class="container">
+     <div class="reservation__inner">
+      <h2 class="reservation__header">Make a reservation</h2>
+      <div class="reservation__form">
+        <form class="form">
+          <input class="destination" type="search" name="destination" placeholder="Select Destination" required>
+          <input class="from" type="date" name="date">
+          <input class="to" type="date" name="date">
+          <input class="guests" type="text" name="count" placeholder="Guests" required>
+          <button class="section__btn section__btn--check" type="submit">Check Availability</button>
+        </form>
+      </div>
+     </div> 
+   </div>
+ </section>
+
+<!--About-->
+
+<section class="about">
+    <div class="container">
+        <div class="about__inner">
+            <div class="about__item">
+              <img class="about__img" src="https://img.budgettravel.com/_contentHero1x/Santorini-Greece-view-dusk.jpg?mtime=20190327084309" alt="Photo of the Greece">
+            </div>
+
+            <div class="about__content">
+              <h2 class="section__name section__name--about">About us</h2>
+            <p class="about__text">Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. </p>
+            <p class="about__text">Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. </p>
+            <button class="section__btn section__btn--about">Read more</button>
+            </div>
+        </div>
+
+        <div class="sparta__divider">
+          <img src="icons/spartan_icon.png" alt="Sparta">
+        </div>
+    </div>
+</section>
+
+<!--Destinations-->
+
+ <section class="destinations" id="destinations">
+   <div class="container">
+     <div class="title">
+        <h2 class="section__name ">Top destinations</h2>
+        <div class="title__subhead">Septos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.</div>
+    </div>
+
+    <div class="destination__inner">
+        <div class="destination__item">
+          <div class="item__inner">
+            <img class="destination__img" src="img/santorini.jpg" alt="Photo of the Santorini">
+            <div class="destination__content">
+            <a class="destination__link" href="#">See more</a>
+            </div>
+          </div>
+          <div class="destination__name">Santorini</div> 
+        </div>
+
+        <div class="destination__item">
+          <div class="item__inner">
+            <img class="destination__img" src="img/acropolis.jpg" alt="Photo of the Acropolis of Athens">
+            <div class="destination__content">
+            <a class="destination__link" href="#">See more</a>
+            </div>
+          </div>
+          <div class="destination__name">Acropolis of Athens</div> 
+        </div>
+
+        <div class="destination__item">
+          <div class="item__inner">
+            <img class="destination__img" src="img/kastoria.jpg" alt="Photo of the Kastoria">
+            <div class="destination__content">
+            <a class="destination__link" href="#">See more</a>
+            </div>
+          </div>
+          <div class="destination__name">Kastoria</div> 
+        </div>
+
+        <div class="destination__item">
+          <div class="item__inner">
+            <img class="destination__img" src="img/mykhonos.jpg" alt="Photo of the Mykonos Islands">
+            <div class="destination__content">
+            <a class="destination__link" href="#">See more</a>
+            </div>
+          </div>
+          <div class="destination__name">Mykonos Islands</div> 
+        </div>
+
+        <div class="destination__item">
+          <div class="item__inner">
+            <img class="destination__img" src="img/aphaia.jpg" alt="Photo of the Temple of Aphaia">
+            <div class="destination__content">
+            <a class="destination__link" href="#">See more</a>
+            </div>
+          </div>
+          <div class="destination__name">Temple of Aphaia</div> 
+        </div>
+
+        <div class="destination__item">
+          <div class="item__inner">
+            <img class="destination__img" src="img/south_kastoria.jpg" alt="Photo of the South Kastoria">
+            <div class="destination__content">
+            <a class="destination__link" href="#">See more</a>
+            </div>
+          </div>
+          <div class="destination__name">South Kastoria</div> 
+        </div>
+
+        <button class="section__btn section__btn--destinations">See all destinations</button>
+    </div>
+   </div>
+ </section>
+
+
+ <!--Tour Packages-->
+ <section class="packages">
+   <div class="container">
+      <div class="title">
+        <h2 class="section__name">Packages</h2>
+        <div class="title__subhead">Septos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue.</div>
+      </div>
+
+      <div class="package__inner">
+        <div class="package__row">
+            <div class="package__item trip">
+              <img class="package__icon" src="icons/culture-icon.png" alt="Culture Trip">
+              <div class="package__name">Culture trip</div>
+              <div class="package__descr">Septos himenaeos. Mauris in erat justo. Nullam ac urna en.</div>
+            </div>
+
+            <div class="package__item place">
+                <div class="place__number">Place 1</div>
+                <div class="place__descr">Cererat consequat auctor eu in elit sed.</div>
+                <div class="time">120 mins</div>
+                <div class="location">Santorini</div>
+            </div>
+
+            <div class="package__item place">
+              <div class="place__number">Place 2</div>
+              <div class="place__descr">Class aptent taciti sociosqu ad litora cersa.</div>
+              <div class="time">180 mins</div>
+              <div class="location">Sparta</div>
+            </div>
+
+            <div class="package__item place">
+              <div class="place__number">Place 3</div>
+              <div class="place__descr">Litora torquent per class aptent taciti.</div>
+              <div class="time">105 mins</div>
+              <div class="location">South Kastoria</div>
+            </div>
+
+            <div class="package__item booking">
+              <button class="section__btn section__btn--booking">Book it now</button>
+              <div class="or">or</div>
+              <a class="customize" href="#">Customize it</a>
+            </div>
+
+        </div>
+
+        <div class="package__row">
+          <div class="package__item trip">
+            <img class="package__icon" src="icons/tourism_icon.png" alt="Water Sports">
+            <div class="package__name">Water sports</div>
+            <div class="package__descr">Septos himenaeos. Mauris in erat justo. Nullam ac urna en.</div>
+          </div>
+
+          <div class="package__item place">
+              <div class="place__number">Place 1</div>
+              <div class="place__descr">Cererat consequat auctor eu in elit sed.</div>
+              <div class="time">180 mins</div>
+              <div class="location">Mykonos</div>
+          </div>
+
+          <div class="package__item place">
+            <div class="place__number">Place 2</div>
+            <div class="place__descr">Class aptent taciti sociosqu ad litora cersa.</div>
+            <div class="time">150 mins</div>
+            <div class="location">Mykonos</div>
+          </div>
+
+          <div class="package__item place">
+            <div class="place__number">Place 3</div>
+            <div class="place__descr">Litora per class aptent taciti sociosqu ad.</div>
+            <div class="time">90 mins</div>
+            <div class="location">Mykonos</div>
+          </div>
+
+          <div class="package__item booking">
+            <button class="section__btn section__btn--booking">Book it now</button>
+            <div class="or">or</div>
+            <a class="customize" href="#">Customize it</a>
+          </div>
+        </div>
+
+        <div class="package__row">
+          <div class="package__item trip">
+            <img class="package__icon" src="icons/food_icon.png" alt="Gastronomical Tourism">
+            <div class="package__name">Gastronomical</div>
+            <div class="package__descr">Septos himenaeos. Mauris in erat justo. Nullam ac urna en.</div>
+          </div>
+
+          <div class="package__item place">
+              <div class="place__number">Place 1</div>
+              <div class="place__descr">Cererat consequat auctor eu in elit sed.</div>
+              <div class="time">90 mins</div>
+              <div class="location">Crete</div>
+          </div>
+
+          <div class="package__item place">
+            <div class="place__number">Place 2</div>
+            <div class="place__descr">Class aptent taciti sociosqu ad litora cersa.</div>
+            <div class="time">60 mins</div>
+            <div class="location">Athens</div>
+          </div>
+
+          <div class="package__item place">
+            <div class="place__number">Place 3</div>
+            <div class="place__descr">Litora per class aptent taciti sociosqu ad.</div>
+            <div class="time">90 mins</div>
+            <div class="location">Athens</div>
+          </div>
+
+          <div class="package__item booking">
+            <button class="section__btn section__btn--booking">Book it now</button>
+            <div class="or">or</div>
+            <a class="customize" href="#">Customize it</a>
+          </div>
+        </div>
+        
+      </div>
+   </div>
+ </section>
+
+ <!-- Promo Block-->
+<section class="promo">
+  <div class="promo__left">
+    <img class="promo__left_img" src="img/mykonos_islands2.jpg" alt="Photo of the Mykonos Islands"> 
+  </div>
+
+  <div class="promo__rignt">
+    <div class="promo__inner">
+      <h2 class="section__name section__name--promo">Exclusive tour to Mykonos Island</h2>
+      <div class="title__subhead title__subhead--promo">Lorem Ipsum proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</div>
+      <div class="apply">Some restrictions apply*</div>
+      <button class="section__btn section__btn--booking button">Book now</button>
+    </div>
+</div>
+</section>
+
+<!--Subscribe Block-->
+ <section class="newsletter">
+   <div class="container">
+      <h3 class="newsletter__title">Not ready yet? Then Join our newsletter</h3>
+      <div class="newsletter__subtitle">Sign up for our newsletter and receive latest news on destinations, reviews, offers and more.</div>
+   
+
+   <div class="form__container">
+     <form>
+       <input class="email" type="email" placeholder="Enter your email address" required>
+       <button class="section__btn section__btn--submit" type="submit">Subscribe</button>
+     </form>
+   </div>
+
+   <div class="sparta__divider ">
+    <img src="icons/spartan_icon.png" alt="Sparta">
+  </div>
+  </div>
+ </section>
+
+
+ <!--Blog-->
+ <section class="blog">
+    <div class="container">
+      <div class="blog__content">
+        <div class="blog__item">
+            <h4 class="item__name">Contact</h4>
+            <div class="item__text">Matet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. </div>
+            <div class="item__text tel">+30 2825601239</div>
+            <div class="item__text mail">Info@discovergreece.com</div>
+            <div class="item__text address">Aenean sollicitudin, lorem quis bibendum auctor</div>
+        </div>
+
+        <div class="blog__item">
+          <h4 class="item__name">Recent Tweets</h4>
+          <div class="item__text tweet"> @henryreyes9 aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.</div>
+
+          <div class="item__text tweet">@commit2design aenean sollicitudin, lorem quis bibendum auctor, nisi elit cot.</div>
+
+          <div class="item__text tweet">Zenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum.</div>
+        </div>
+
+        <div class="blog__item">
+          <h4 class="item__name">Recent posts</h4>
+          <div class="item__text post">How to get ready for your honey moon trip?
+            Read more...</div>
+
+          <div class="item__text post">5 tips to plan the best summer vacation in Greece. Read more...</div>
+
+          <div class="item__text post">Are you a nature lover? Here are the top destinations you should visit. Read more...</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <span class="footer__copyright">Copyright © 2016 Discover Greece. All rights reserved.</span>
+
+        <div class="footer__social">
+          <a class="social__link" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a class="social__link" href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a class="social__link" href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <div class="footer__links">
+            <a class="footer__link" href="#">Privacy & Terms</a>
+            <a class="footer__link" href="#">FAQs</a>
+            <a class="footer__link" href="#">Legal</a>
+            <a class="footer__link" href="#">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
